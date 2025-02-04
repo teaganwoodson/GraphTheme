@@ -1,1 +1,3 @@
-exportPattern("^[[:alpha:]]+")
+export(custom_theme, custom_colors, custom_fill, horizontal_bar_theme)  # Explicitly export functions
+import(ggplot2)
+import(scales)
